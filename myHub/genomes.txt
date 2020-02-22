@@ -4,7 +4,7 @@ groups groups.txt
 description H37Rv
 twoBitPath Mtb/Mtb.2bit
 organism Mycobacterium tuberculosis
-defaultPos Mtb:46880-50000
+defaultPos NC_000962.3:46880-50000
 orderKey 4700
 scientificName Mycobacterium tuberculosis H37Rv
 htmlPath Mtb/description.html
