@@ -1,0 +1,6 @@
+hub rnaplab
+shortLabel RNAP-lab
+longLabel RNAP experiments
+genomesFile genomes.txt
+email surykartka@gmail.com
+descriptionUrl demo.html

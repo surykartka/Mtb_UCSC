@@ -1,0 +1,46 @@
+track genes
+longLabel Gene annotations
+shortLabel Genes
+group genes
+priority 100
+visibility pack
+itemRgb On
+type bigBed 9 +
+bigDataUrl bbi/genes.bb
+searchIndex name,geneProduct,geneName
+
+
+track RNAseq_norm
+group RNA-seq
+superTrack on show
+shortLabel RNAseq
+longLabel RNA-seq data crudely normalized and gmean averaged
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 85
+configurable on
+autoScale on
+
+track RNAseq_norm_forward
+longLabel RNA-seq forward strand
+shortLabel RNA forward
+group RNA-seq
+parent RNAseq_norm
+visibility pack
+type bigWig
+color 203,75,21
+bigDataUrl bbi/RNAseq_norm_gmean_plus.bw
+
+track RNAseq_norm_reverse
+longLabel RNA-seq reverse strand
+shortLabel RNA reverse
+group RNA-seq
+parent RNAseq_norm
+visibility pack
+type bigWig
+color 70,162,225
+bigDataUrl bbi/RNAseq_norm_gmean_minus.bw
+
