@@ -30,6 +30,17 @@ type bigBed 9
 bigDataUrl bbi/TSS_stat.bb
 
 
+track ARnold_term
+group TTS
+longLabel Rho-independent terminators prediction by ARnold
+shortLabel ARnold_term
+priority 100
+visibility pack
+itemRgb On
+type bigBed 6
+bigDataUrl bbi/Arnold.bb
+
+
 track RNAseq_norm
 group RNA-seq
 container multiWig
