@@ -48,7 +48,7 @@ shortLabel RhoTermPredict_term
 priority 100
 visibility pack
 itemRgb On
-type bigBed 6
+type bigBed 3
 bigDataUrl bbi/RhoTermPredict.bb
 
 
