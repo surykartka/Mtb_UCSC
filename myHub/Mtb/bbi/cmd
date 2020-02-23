@@ -1,0 +1,1 @@
+bedToBigBed -extraIndex=name,geneName -type=bed6+2 -as=genes.as -tab ProteinTable166_159857.bed chrom.sizes genes.bbi
