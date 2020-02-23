@@ -5,24 +5,27 @@ group genes
 priority 100
 visibility pack
 itemRgb On
-type bigBed 9 +
+type bigBed 6 +
 bigDataUrl bbi/genes.bb
 searchIndex name,geneProduct,geneName
 
 
 track RNAseq_norm
 group RNA-seq
-superTrack on show
-shortLabel RNAseq
+container multiWig
+shortLabel RNA-seq
 longLabel RNA-seq data crudely normalized and gmean averaged
+type bigWig
 #viewLimits 0:160
 visibility full
-aggregate transparentOverlay
+aggregate stacked
+graphTypeDefault bar
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 85
+priority 80
 configurable on
 autoScale on
+
 
 track RNAseq_norm_forward
 longLabel RNA-seq forward strand
