@@ -9,6 +9,26 @@ type bigBed 6 +
 bigDataUrl bbi/genes.bb
 searchIndex name,geneProduct,geneName
 
+track TSS_expo
+group TSS
+longLabel TSS from exponential growth from Cortes 2013
+shortLabel TSS_expo
+priority 100
+visibility pack
+type bigBed 6
+color 90,180,172
+bigDataUrl bbi/TSS_expo.bb
+
+track TSS_stat
+group TSS
+longLabel TSS from stationary growth from Cortes 2013
+shortLabel TSS_stat
+priority 100
+visibility pack
+type bigBed 6
+color 216,179,101
+bigDataUrl bbi/TSS_stat.bb
+
 
 track RNAseq_norm
 group RNA-seq
@@ -46,8 +66,6 @@ visibility pack
 type bigWig
 color 70,162,225
 bigDataUrl bbi/RNAseq_norm_gmean_minus.bw
-
-
 
 
 track Termseq_norm
