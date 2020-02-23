@@ -41,6 +41,17 @@ type bigBed 6
 bigDataUrl bbi/Arnold.bb
 
 
+track RhoTermPredict_term
+group TTS
+longLabel Rho-dependent terminators prediction by RhoTermPredict
+shortLabel RhoTermPredict_term
+priority 100
+visibility pack
+itemRgb On
+type bigBed 6
+bigDataUrl bbi/RhoTermPredict.bb
+
+
 track RNAseq_norm
 group RNA-seq
 container multiWig
