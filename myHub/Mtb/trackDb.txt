@@ -47,3 +47,42 @@ type bigWig
 color 70,162,225
 bigDataUrl bbi/RNAseq_norm_gmean_minus.bw
 
+
+
+
+track Termseq_norm
+group Term-seq
+container multiWig
+shortLabel Term-seq
+longLabel Term-seq 3' end data normalized to RPM and gmean averaged
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate stacked
+graphTypeDefault bar
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 80
+configurable on
+autoScale on
+
+
+track Termseq_norm_forward
+longLabel Term-seq forward strand 3' ends
+shortLabel Term-seq forward
+group Term-seq
+parent Termseq_norm
+visibility pack
+type bigWig
+color 203,75,21
+bigDataUrl bbi/termseq_norm_gmean_plus.bw
+
+track Termseq_norm_reverse
+longLabel Term-seq reverse strand 3' ends
+shortLabel Term-seq reverse
+group Term-seq
+parent Termseq_norm
+visibility pack
+type bigWig
+color 70,162,225
+bigDataUrl bbi/termseq_norm_gmean_minus.bw
