@@ -76,6 +76,17 @@ type bigBed 3
 bigDataUrl bbi/RhoTermPredict.bb
 maxItems 5
 
+track TRIT_predictions
+group TTS
+longLabel TRIT cmsearch predictions
+shortLabel TRIT_predictions
+priority 100
+visibility pack
+colorByStrand 70,162,225 203,75,21
+type bigBed 6
+bigDataUrl bbi/TRIT.bb
+
+
 track RNAseq_norm
 group RNA-seq
 container multiWig
