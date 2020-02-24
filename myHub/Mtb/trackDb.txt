@@ -127,7 +127,7 @@ longLabel RNA-seq data crudely normalized and gmean averaged
 type bigWig
 #viewLimits 0:160
 visibility full
-aggregate transparent
+aggregate stacked
 graphTypeDefault bar
 showSubtrackColorOnUi on
 windowingFunction maximum
