@@ -26,7 +26,7 @@ longLabel Rfam cmscan predictions
 shortLabel Rfam
 group genes
 priority 100
-visibility pack
+visibility dense
 itemRgb On
 type bigBed 6
 bigDataUrl bbi/Rfam_cmscan.bb
@@ -39,7 +39,7 @@ group TSS
 longLabel TSS from exponential growth from Cortes 2013
 shortLabel TSS_expo
 priority 100
-visibility pack
+visibility dense
 itemRgb On
 type bigBed 9
 bigDataUrl bbi/TSS_expo.bb
@@ -49,7 +49,7 @@ group TSS
 longLabel TSS from stationary growth from Cortes 2013
 shortLabel TSS_stat
 priority 100
-visibility pack
+visibility dense
 itemRgb On
 type bigBed 9
 bigDataUrl bbi/TSS_stat.bb
@@ -61,7 +61,7 @@ longLabel TTS from exponential growth for annotated genes by Alex
 shortLabel TTS_genes_expo
 priority 100
 colorByStrand 70,162,225 203,75,21
-visibility pack
+visibility dense
 type bigBed 6
 bigDataUrl bbi/EndOfGenes.bb
 
@@ -71,7 +71,7 @@ group TTS
 longLabel Rho Significant Regions from Botella et al. 2017
 shortLabel RhoSignificantRegions
 priority 100
-visibility pack
+visibility dense
 type bigBed 3
 bigDataUrl bbi/RhoSignificantRegions.bb
 
@@ -83,7 +83,7 @@ group TTS
 longLabel Rho-independent terminators prediction by ARnold
 shortLabel ARnold_term
 priority 100
-visibility pack
+visibility dense
 itemRgb On
 type bigBed 6
 bigDataUrl bbi/Arnold.bb
@@ -105,7 +105,7 @@ group TTS
 longLabel TRIT cmsearch predictions
 shortLabel TRIT_predictions
 priority 100
-visibility pack
+visibility dense
 colorByStrand 70,162,225 203,75,21
 type bigBed 6
 bigDataUrl bbi/TRIT.bb
