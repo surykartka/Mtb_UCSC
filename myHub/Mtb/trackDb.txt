@@ -44,7 +44,7 @@ bigDataUrl bbi/TSS_stat.bb
 
 track TTS_genes_expo
 group TTS
-longLabel TTS from exponential growth for annotated genes
+longLabel TTS from exponential growth for annotated genes by Alex
 shortLabel TTS_genes_expo
 priority 100
 colorByStrand 70,162,225 203,75,21
