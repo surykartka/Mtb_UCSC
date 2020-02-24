@@ -26,7 +26,7 @@ longLabel Rfam cmscan predictions
 shortLabel Rfam
 group genes
 priority 100
-visibility dense
+visibility pack
 itemRgb On
 type bigBed 6
 bigDataUrl bbi/Rfam_cmscan.bb
