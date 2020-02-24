@@ -1,4 +1,4 @@
-genome Elr
+genome Ylr
 trackDb Mtb/trackDb.txt
 groups groups.txt
 description Vr73H
