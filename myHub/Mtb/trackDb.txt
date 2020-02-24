@@ -42,6 +42,18 @@ type bigBed 9
 bigDataUrl bbi/TSS_stat.bb
 
 
+track TTS_genes_expo
+group TTS
+longLabel TTS from exponential growth for annotated genes
+shortLabel TTS_genes_expo
+priority 100
+colorByStrand 70,162,225 203,75,21
+visibility pack
+type bigBed 6
+bigDataUrl bbi/EndOfGenes.bb
+
+
+
 track ARnold_term
 group TTS
 longLabel Rho-independent terminators prediction by ARnold
