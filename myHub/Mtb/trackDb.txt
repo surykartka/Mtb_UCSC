@@ -76,7 +76,7 @@ bigDataUrl bbi/RhoSignificantRegions.bb
 
 track TransTermHP
 group TTS
-longLabel TransTermHP from Alex
+longLabel Rho-independent terminators predicted with TransTermHP from Alex
 shortLabel TransTermHP
 priority 100
 visibility dense
@@ -88,7 +88,7 @@ bigDataUrl bbi/TransTermHP.bb
 
 track ARnold_term
 group TTS
-longLabel Rho-independent terminators prediction by ARnold
+longLabel Rho-independent terminators predicted with ARnold
 shortLabel ARnold_term
 priority 100
 visibility dense
@@ -99,7 +99,7 @@ bigDataUrl bbi/Arnold.bb
 
 track RhoTermPredict_term
 group TTS
-longLabel Rho-dependent terminators prediction by RhoTermPredict
+longLabel Rho-dependent terminators predicted with RhoTermPredict
 shortLabel RhoTermPredict_term
 priority 100
 visibility hide
