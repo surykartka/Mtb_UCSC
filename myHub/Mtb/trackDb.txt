@@ -139,7 +139,7 @@ parent Termseq_norm
 visibility pack
 type bigWig
 color 203,75,21
-bigDataUrl bbi/termseq_norm_gmean_plus.bw
+bigDataUrl bbi/termseq_norm_gmean_minus.bw
 
 track Termseq_norm_reverse
 longLabel Term-seq reverse strand 3' ends
@@ -149,4 +149,4 @@ parent Termseq_norm
 visibility pack
 type bigWig
 color 70,162,225
-bigDataUrl bbi/termseq_norm_gmean_minus.bw
+bigDataUrl bbi/termseq_norm_gmean_plus.bw
