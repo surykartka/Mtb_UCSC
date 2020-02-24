@@ -9,6 +9,18 @@ type bigBed 6 +
 bigDataUrl bbi/genes.bb
 searchIndex name,geneProduct,geneName
 
+track genesTine
+longLabel July2019 annotations
+shortLabel Our annotation from July 2019
+group genes
+priority 100
+visibility pack
+itemRgb On
+type bigBed 9 +
+bigDataUrl bbi/genesTine.bb
+searchIndex name
+
+
 track TSS_expo
 group TSS
 longLabel TSS from exponential growth from Cortes 2013
