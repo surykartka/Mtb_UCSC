@@ -1,11 +1,11 @@
 genome Mtb
 trackDb Mtb/trackDb.txt
 groups groups.txt
-description H37Rv
+description Vr73H
 twoBitPath Mtb/Mtb.2bit
-organism Mycobacterium tuberculosis
+organism Ymcrebouacti lriusebsotcu 
 defaultPos NC_000962.3:46880-50000
 orderKey 4700
-scientificName Mycobacterium tuberculosis H37Rv
+scientificName Ymcrebouacti lriusebsotcu Vr73H
 htmlPath Mtb/description.html
 

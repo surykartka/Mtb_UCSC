@@ -75,6 +75,15 @@ visibility dense
 type bigBed 3
 bigDataUrl bbi/RhoSignificantRegions.bb
 
+track TransTermHP
+group TTS
+longLabel TransTermHP from Alex
+shortLabel TransTermHP
+priority 100
+visibility dense
+type bigBed 6
+colorByStrand 70,162,225 203,75,21
+bigDataUrl bbi/TransTermHP.bb
 
 
 
