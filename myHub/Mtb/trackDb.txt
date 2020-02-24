@@ -21,6 +21,19 @@ bigDataUrl bbi/genesTine.bb
 searchIndex name
 
 
+track Rfam
+longLabel Rfam cmscan predictions
+shortLabel Rfam
+group genes
+priority 100
+visibility pack
+itemRgb On
+type bigBed 6
+bigDataUrl bbi/Rfam_cmscan.bb
+searchIndex name
+colorByStrand 70,162,225 203,75,21
+
+
 track TSS_expo
 group TSS
 longLabel TSS from exponential growth from Cortes 2013
