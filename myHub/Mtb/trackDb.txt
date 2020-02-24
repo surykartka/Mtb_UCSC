@@ -27,11 +27,10 @@ shortLabel Rfam
 group genes
 priority 100
 visibility pack
-itemRgb On
 type bigBed 6
 bigDataUrl bbi/Rfam_cmscan.bb
 searchIndex name
-colorByStrand 70,162,225 203,75,21
+color 255,127,0
 
 
 track TSS_expo
