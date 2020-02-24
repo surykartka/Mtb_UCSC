@@ -1,5 +1,5 @@
 track genes
-longLabel Gene annotations
+longLabel Gene annotations from Mycobrowser
 shortLabel Genes
 group genes
 priority 100
