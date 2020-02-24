@@ -62,7 +62,7 @@ visibility pack
 itemRgb On
 type bigBed 3
 bigDataUrl bbi/RhoTermPredict.bb
-
+maxItems 5
 
 track RNAseq_norm
 group RNA-seq
