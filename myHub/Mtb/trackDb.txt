@@ -58,7 +58,7 @@ group TTS
 longLabel Rho-dependent terminators prediction by RhoTermPredict
 shortLabel RhoTermPredict_term
 priority 100
-visibility pack
+visibility hide
 itemRgb On
 type bigBed 3
 bigDataUrl bbi/RhoTermPredict.bb
