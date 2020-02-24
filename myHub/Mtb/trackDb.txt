@@ -53,6 +53,17 @@ type bigBed 6
 bigDataUrl bbi/EndOfGenes.bb
 
 
+track RhoSignificantRegions
+group TTS
+longLabel Rho Significant Regions from Botella et al. 2017
+shortLabel RhoSignificantRegions
+priority 100
+visibility pack
+type bigBed 3
+bigDataUrl bbi/RhoSignificantRegions.bb
+
+
+
 
 track ARnold_term
 group TTS
