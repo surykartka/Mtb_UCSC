@@ -223,7 +223,7 @@ type bigWig
 color 203,75,21
 bigDataUrl bbi/termseq_norm_gmean_minus_shuffled.bw
 
-track True_termseq_norm_forward
+track True_termseq_norm_reverse
 longLabel True term-seq reverse strand 3' ends
 shortLabel True term-seq reverse
 group Term-seq
