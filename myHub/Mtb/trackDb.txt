@@ -20,6 +20,15 @@ type bigBed 9 +
 bigDataUrl bbi/genesTine.bb
 searchIndex name
 
+track sORFs_supportedTranslation_termseq
+longLabel Small upstream ORFs supported by ERF or SD, and with term-seq signal inside
+shortLabel suORFs
+group genes
+priority 100
+visibility pack
+itemRgb On
+type bigBed 6
+bigDataUrl bbi/sORFs_supportedTranslation_termseq.bb
 
 track Rfam
 longLabel Rfam cmscan predictions
