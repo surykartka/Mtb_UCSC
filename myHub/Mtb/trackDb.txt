@@ -73,6 +73,16 @@ visibility dense
 type bigBed 6
 bigDataUrl bbi/EndOfGenes.bb
 
+track ERFs
+group TSS
+longLabel Enriched ribosome footprints
+shortLabel ERFs
+priority 100
+visibility dense
+colorByStrand 70,162,225 203,75,21
+type bigBed 6
+bigDataUrl bbi/ERFs.bb
+
 
 track RhoSignificantRegions
 group TTS
