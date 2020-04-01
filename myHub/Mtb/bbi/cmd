@@ -1,6 +1,6 @@
 
 sort -k1,1 -k2,2n sORFs_supportedTranslation_termseq.bed > tmp
 mv tmp sORFs_supportedTranslation_termseq.bed
-bedToBigBed -extraIndex=name -type=bed6 -as=sORFs_supportedTranslation_termseq.as -tab sORFs_supportedTranslation_termseq.bed chrom.sizes sORFs_supportedTranslation_termseq.bbi
+bedToBigBed -extraIndex=name -type=bed6 -as=sORFs_supportedTranslation_termseq.as -tab sORFs_supportedTranslation_termseq.bed chrom.sizes sORFs_supportedTranslation_termseq.bb
 
 bedToBigBed -extraIndex=name,geneName -type=bed6+2 -as=genes.as -tab ProteinTable166_159857.bed chrom.sizes genes.bbi
