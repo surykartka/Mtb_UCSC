@@ -239,7 +239,7 @@ parent Processed_termseq_norm
 visibility pack
 type bigWig
 color 203,75,21
-bigDataUrl bbi/processed_termseq_norm_gmean_minus.bw
+bigDataUrl bbi/processed_termseq_norm_gmean_plus.bw
 
 track Proc_termseq_norm_reverse
 longLabel Processed term-seq reverse strand 3' ends
@@ -249,7 +249,7 @@ parent Processed_termseq_norm
 visibility pack
 type bigWig
 color 70,162,225
-bigDataUrl bbi/processed_termseq_norm_gmean_plus.bw
+bigDataUrl bbi/processed_termseq_norm_gmean_minus.bw
 
 
 
