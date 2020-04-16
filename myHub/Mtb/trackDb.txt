@@ -214,6 +214,45 @@ color 70,162,225
 bigDataUrl bbi/termseq_norm_gmean_plus.bw
 
 
+track Processed_termseq_norm
+group Term-seq
+container multiWig
+shortLabel Proc_term-seq
+longLabel Processed term-seq 3' end data normalized to RPM and gmean averaged
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate stacked
+graphTypeDefault bar
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 80
+configurable on
+autoScale on
+
+
+track Proc_termseq_norm_forward
+longLabel Processed term-seq forward strand 3' ends
+shortLabel Proc_term-seq forward
+group Term-seq
+parent Processed_termseq_norm
+visibility pack
+type bigWig
+color 203,75,21
+bigDataUrl bbi/processed_termseq_norm_gmean_minus.bw
+
+track Proc_termseq_norm_reverse
+longLabel Processed term-seq reverse strand 3' ends
+shortLabel Proc_term-seq reverse
+group Term-seq
+parent Processed_termseq_norm
+visibility pack
+type bigWig
+color 70,162,225
+bigDataUrl bbi/processed_termseq_norm_gmean_plus.bw
+
+
+
 track True_termseq_norm
 group Term-seq
 container multiWig
