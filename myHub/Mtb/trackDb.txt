@@ -253,6 +253,45 @@ bigDataUrl bbi/processed_termseq_norm_gmean_minus.bw
 
 
 
+
+track TSSseq_norm
+group Term-seq
+container multiWig
+shortLabel TSS-seq
+longLabel Tag-seq 5' end data normalized to RPM and gmean averaged
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate stacked
+graphTypeDefault bar
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 80
+configurable on
+autoScale on
+
+
+track TSSseq_norm_forward
+longLabel TSS-seq forward strand 5' ends
+shortLabel TSS-seq forward
+group Term-seq
+parent TSSseq_norm
+visibility pack
+type bigWig
+color 203,75,21
+bigDataUrl bbi/TSS_plus.bw
+
+track TSSseq_norm_reverse
+longLabel TSS-seq reverse strand 3' ends
+shortLabel TSS-seq reverse
+group Term-seq
+parent TSSseq_norm
+visibility pack
+type bigWig
+color 70,162,225
+bigDataUrl bbi/TSS_minus.bw
+
+
 track True_termseq_norm
 group Term-seq
 container multiWig
