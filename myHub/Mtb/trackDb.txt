@@ -279,7 +279,7 @@ parent TSSseq_norm
 visibility pack
 type bigWig
 color 203,75,21
-bigDataUrl bbi/TSS_plus.bw
+bigDataUrl bbi/TSS_minus.bw
 
 track TSSseq_norm_reverse
 longLabel TSS-seq reverse strand 3' ends
@@ -289,7 +289,7 @@ parent TSSseq_norm
 visibility pack
 type bigWig
 color 70,162,225
-bigDataUrl bbi/TSS_minus.bw
+bigDataUrl bbi/TSS_plus.bw
 
 
 track True_termseq_norm
